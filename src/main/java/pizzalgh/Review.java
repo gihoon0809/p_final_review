@@ -17,6 +17,8 @@ public class Review {
     private Long orderedId;
     private String reviewtext;
 
+
+
     @PostPersist
     public void onPostPersist(){
         Written written = new Written();
