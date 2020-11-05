@@ -19,12 +19,6 @@ spec:
           image: admin26.azurecr.io/review:latest
           ports:
             - containerPort: 8080
-                env:
-                  - name: configurlreq
-                    valueFrom:
-                      configMapKeyRef:
-                        name: apiurlrequest
-                        key: url
                 resources:
                   limits:
                     cpu: 500m
