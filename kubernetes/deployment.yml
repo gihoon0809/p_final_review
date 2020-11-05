@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: review
-          image: admin26.azurecr.io/review:latest
+          image: admin26reg.azurecr.io/review:latest
           ports:
             - containerPort: 8080
                 resources:
