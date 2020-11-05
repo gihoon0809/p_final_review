@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: apiurlrequest
+data:
+  url:  http://request:8088
+  fluentd-sever-ip: 10.xxx.xxx.xxx
