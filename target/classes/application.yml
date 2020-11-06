@@ -78,13 +78,16 @@ spring:
 
 api:
   url:
-    request: ${configurlreq}
+    order: order:8080
+#api:
+#  url:
+#    request: ${configurlreq}
 
-#feign:
-#  hystrix:
-#    enabled: true
-#
-#hystrix:
-#  command:
-#    default:
-#      execution.isolation.thread.timeoutInMilliseconds: 680
+feign:
+  hystrix:
+    enabled: true
+
+hystrix:
+  command:
+    default:
+      execution.isolation.thread.timeoutInMilliseconds: 680
