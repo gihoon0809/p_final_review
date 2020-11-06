@@ -80,11 +80,11 @@ api:
   url:
     request: ${configurlreq}
 
-#feign:
-#  hystrix:
-#    enabled: true
-#
-#hystrix:
-#  command:
-#    default:
-#      execution.isolation.thread.timeoutInMilliseconds: 680
+feign:
+  hystrix:
+    enabled: true
+
+hystrix:
+  command:
+    default:
+      execution.isolation.thread.timeoutInMilliseconds: 680
