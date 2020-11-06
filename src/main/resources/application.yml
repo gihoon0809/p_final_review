@@ -78,7 +78,7 @@ spring:
 
 api:
   url:
-    request: ${configurlreq}
+    order: ${configurlreq}
 
 feign:
   hystrix:
