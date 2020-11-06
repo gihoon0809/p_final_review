@@ -76,9 +76,9 @@ spring:
           destination: pizzalgh
           contentType: application/json
 
-api:
-  url:
-    order: ${configurlreq}
+#api:
+#  url:
+#    order: ${configurlreq}
 
 feign:
   hystrix:
