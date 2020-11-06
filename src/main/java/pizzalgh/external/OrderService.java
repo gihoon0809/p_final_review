@@ -8,9 +8,9 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 import java.util.Date;
 
-@FeignClient(name="order", url="http://order:8080")//origin
+//@FeignClient(name="order", url="http://order:8080")//origin
 //@FeignClient(name="order", url="http://localhost:8081")//local
-//@FeignClient(name="order", url="http://api.url.:8080")
+@FeignClient(name="order", url="http://api.url.order:8080")
 public interface OrderService {
 
     @RequestMapping(method= RequestMethod.POST, path="/orders")
